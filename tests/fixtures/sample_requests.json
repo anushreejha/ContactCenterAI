@@ -1,0 +1,28 @@
+{
+  "order_tracking_request": {
+    "detectIntentResponseId": "12345",
+    "intentInfo": {
+      "displayName": "order_tracking"
+    },
+    "fulfillmentInfo": {
+      "tag": "order_tracking"
+    },
+    "sessionInfo": {
+      "session": "projects/test/locations/us-central1/agents/123/sessions/456",
+      "parameters": {
+        "order_id": "ORD-12345"
+      }
+    }
+  },
+  "faq_request": {
+    "detectIntentResponseId": "67890",
+    "fulfillmentInfo": {
+      "tag": "faq_handler"
+    },
+    "sessionInfo": {
+      "parameters": {
+        "faq_type": "shipping"
+      }
+    }
+  }
+}

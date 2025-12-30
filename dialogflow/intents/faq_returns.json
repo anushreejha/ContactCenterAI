@@ -1,0 +1,52 @@
+{
+  "name": "faq_returns",
+  "displayName": "FAQ - Returns & Refunds",
+  "priority": 500000,
+  "trainingPhrases": [
+    {
+      "parts": [
+        {
+          "text": "What's your return policy?"
+        }
+      ]
+    },
+    {
+      "parts": [
+        {
+          "text": "How do I return an item?"
+        }
+      ]
+    },
+    {
+      "parts": [
+        {
+          "text": "Can I get a refund?"
+        }
+      ]
+    },
+    {
+      "parts": [
+        {
+          "text": "Return process"
+        }
+      ]
+    },
+    {
+      "parts": [
+        {
+          "text": "How long for refunds?"
+        }
+      ]
+    }
+  ],
+  "parameters": [
+    {
+      "name": "faq_type",
+      "value": "returns"
+    }
+  ],
+  "webhook": {
+    "enabled": true,
+    "tag": "faq_handler"
+  }
+}

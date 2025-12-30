@@ -1,0 +1,15 @@
+{
+  "name": "order_id",
+  "displayName": "Order ID",
+  "kind": "KIND_REGEXP",
+  "autoExpansionMode": "AUTO_EXPANSION_MODE_DEFAULT",
+  "entities": [
+    {
+      "value": "ORD-[0-9]{5}",
+      "synonyms": [
+        "ORD-[0-9]{5}"
+      ]
+    }
+  ],
+  "enableFuzzyExtraction": false
+}

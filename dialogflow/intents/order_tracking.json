@@ -1,0 +1,70 @@
+{
+  "name": "order_tracking",
+  "displayName": "Order Tracking",
+  "priority": 500000,
+  "trainingPhrases": [
+    {
+      "parts": [
+        {
+          "text": "What's my order status?"
+        }
+      ]
+    },
+    {
+      "parts": [
+        {
+          "text": "Track order "
+        },
+        {
+          "text": "ORD-12345",
+          "entityType": "@order_id",
+          "alias": "order_id"
+        }
+      ]
+    },
+    {
+      "parts": [
+        {
+          "text": "Where is my package?"
+        }
+      ]
+    },
+    {
+      "parts": [
+        {
+          "text": "Check status of order "
+        },
+        {
+          "text": "ORD-67890",
+          "entityType": "@order_id",
+          "alias": "order_id"
+        }
+      ]
+    },
+    {
+      "parts": [
+        {
+          "text": "I want to track my order"
+        }
+      ]
+    }
+  ],
+  "parameters": [
+    {
+      "name": "order_id",
+      "displayName": "Order ID",
+      "entityType": "@order_id",
+      "mandatory": true,
+      "prompts": [
+        {
+          "text": "Sure! Please provide your order ID (e.g., ORD-12345)."
+        }
+      ]
+    }
+  ],
+  "messages": [],
+  "webhook": {
+    "enabled": true,
+    "tag": "order_tracking"
+  }
+}

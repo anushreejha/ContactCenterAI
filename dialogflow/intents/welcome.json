@@ -1,0 +1,51 @@
+{
+  "name": "Default Welcome Intent",
+  "displayName": "Default Welcome Intent",
+  "priority": 500000,
+  "isFallback": false,
+  "trainingPhrases": [
+    {
+      "parts": [
+        {
+          "text": "Hello"
+        }
+      ]
+    },
+    {
+      "parts": [
+        {
+          "text": "Hi"
+        }
+      ]
+    },
+    {
+      "parts": [
+        {
+          "text": "Hey there"
+        }
+      ]
+    },
+    {
+      "parts": [
+        {
+          "text": "Good morning"
+        }
+      ]
+    }
+  ],
+  "messages": [
+    {
+      "text": {
+        "text": [
+          "Welcome to ContactCenterAI! I'm here to help you with:",
+          "• Order tracking",
+          "• Shipping information",
+          "• Returns and refunds",
+          "• General questions",
+          "",
+          "How can I assist you today?"
+        ]
+      }
+    }
+  ]
+}

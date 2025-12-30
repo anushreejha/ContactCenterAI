@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+*.egg-info/
+
+# Google Cloud
+.gcloudignore
+service-account-key.json
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# Environment
+.env
+.env.local
+
+# Testing
+.pytest_cache/
+coverage/
+htmlcov/
+
+# Logs
+*.log

@@ -1,0 +1,52 @@
+{
+  "name": "faq_shipping",
+  "displayName": "FAQ - Shipping",
+  "priority": 500000,
+  "trainingPhrases": [
+    {
+      "parts": [
+        {
+          "text": "What's your shipping policy?"
+        }
+      ]
+    },
+    {
+      "parts": [
+        {
+          "text": "How long does shipping take?"
+        }
+      ]
+    },
+    {
+      "parts": [
+        {
+          "text": "Do you offer free shipping?"
+        }
+      ]
+    },
+    {
+      "parts": [
+        {
+          "text": "Shipping costs"
+        }
+      ]
+    },
+    {
+      "parts": [
+        {
+          "text": "Delivery time"
+        }
+      ]
+    }
+  ],
+  "parameters": [
+    {
+      "name": "faq_type",
+      "value": "shipping"
+    }
+  ],
+  "webhook": {
+    "enabled": true,
+    "tag": "faq_handler"
+  }
+}
