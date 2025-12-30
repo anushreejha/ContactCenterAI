@@ -68,7 +68,8 @@ ContactCenterAI/
 │   └── fixtures/
 │       └── sample_requests.json
 ├── docs/
-│   └── ARCHITECTURE.md
+    ├── ARCHITECTURE.md
+│   └── sample_conversation.md
 ├── scripts/
 │   ├── deploy.sh
 │   └── setup_gcp.sh
@@ -110,3 +111,10 @@ Local dev environment variables (.env):
 PROJECT_ID=your-project-id
 ORDER_API_URL=<api-link>
 ```
+
+## Future Enhancements
+
+- Multi-language support (Hindi)
+- Integration with live order API
+- Sentiment analysis for escalation priority
+- Chat history persistence
