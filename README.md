@@ -12,9 +12,11 @@ Customer service chatbot built with Dialogflow CX and Cloud Functions. Handles o
 
 ## Architecture
 
+```
 User → Dialogflow CX → Cloud Functions Webhook → Backend API
                     ↓
             Dynamic Responses
+```
 
 ## Tech Stack
 
@@ -46,6 +48,7 @@ gcloud functions deploy dialogflow-webhook --runtime python311 --trigger-http --
 
 ## Project Structure
 
+```
 ContactCenterAI/
 ├── cloudfunctions/
 │   └── webhook/
@@ -73,6 +76,7 @@ ContactCenterAI/
 ├── .gitignore
 ├── README.md
 └── requirements-dev.txt
+```
 
 ## Usage
 
@@ -106,7 +110,3 @@ Local dev environment variables (.env):
 PROJECT_ID=your-project-id
 ORDER_API_URL=<api-link>
 ```
-
----
-
-**Author:** Anushree Jha | [LinkedIn](https://linkedin.com/in/anushreejha)
